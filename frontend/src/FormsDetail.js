@@ -178,9 +178,11 @@ const FormsDetail = () => {
 
         </div>
         </div>
-        <Button variant="warning" type="submit" onClick={Print} className="px-5  mb-5" style={{fontWeight: 'bold',fontFamily: 'Arial'}}>
+        <div className="row px-5">
+        <Button variant="warning" type="submit" onClick={Print} className="px-5 w-100 mb-5 " style={{fontWeight: 'bold',fontFamily: 'Arial'}}>
               Print This Out
               </Button>
+        </div>
       </div>
   );
 };
