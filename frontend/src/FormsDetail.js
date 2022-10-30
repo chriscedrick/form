@@ -80,7 +80,7 @@ const FormsDetail = () => {
         <div className="row px-5" style={{}}>
         <div className="row">
         <div className="col-md-6 " style={{textAlign:"justify"}}>
-          <p style={{fontWeight: 'bold'}}>Strongly Agree:<span style={{fontWeight: 'bold'}}>1</span> | Agree:<span style={{fontWeight: 'bold'}}>2</span> | Disagree:<span style={{fontWeight: 'bold'}}>3</span> | Strongly Disagree:<span style={{fontWeight: 'bold'}}>4</span></p>
+          <p style={{fontWeight: 'bold',marginLeft:"20px"}}><span style={{fontWeight: 'bold'}}>1</span>:Strongly Agree | <span style={{fontWeight: 'bold'}}>2</span>:Agree | <span style={{fontWeight: 'bold'}}>3</span>:Disagree | <span style={{fontWeight: 'bold'}}>4</span>:Strongly Disagree</p>
         </div>
         <div className="col-md-6" style={{textAlign:"center"}}>
         </div>
@@ -146,7 +146,7 @@ const FormsDetail = () => {
         <br></br>
         <div className="row">
         <div className="col-md-6 " style={{textAlign:"justify"}}>
-          <p style={{fontWeight: 'bold'}}>Too Short:<span style={{fontWeight: 'bold'}}>A</span> | Right Length:<span style={{fontWeight: 'bold'}}>B</span> | Too Long:<span style={{fontWeight: 'bold'}}>C</span></p>
+          <p style={{fontWeight: 'bold',marginLeft:"20px"}}><span style={{fontWeight: 'bold'}}>A</span>:Too Short: | <span style={{fontWeight: 'bold'}}>B</span>:Right Length | <span style={{fontWeight: 'bold'}}>C</span>:Too Long</p>
         </div>
         <div className="col-md-6" style={{textAlign:"center"}}>
         </div>
@@ -162,7 +162,7 @@ const FormsDetail = () => {
         <br></br>
         <div className="row">
         <div className="col-md-6 " style={{textAlign:"justify"}}>
-          <p style={{fontWeight: 'bold'}}>Introductory:<span style={{fontWeight: 'bold'}}>A</span> | Intermediate:<span style={{fontWeight: 'bold'}}>B</span> | Advanced:<span style={{fontWeight: 'bold'}}>C</span></p>
+          <p style={{fontWeight: 'bold',marginLeft:"20px"}}><span style={{fontWeight: 'bold'}}>A</span>:Introductory | <span style={{fontWeight: 'bold'}}>B</span>:Intermediate | <span style={{fontWeight: 'bold'}}>C</span>:Advanced</p>
         </div>
         <div className="col-md-6" style={{textAlign:"center"}}>
         </div>
@@ -180,7 +180,7 @@ const FormsDetail = () => {
         </div>
         <div className="row px-5">
         <Button variant="warning" type="submit" onClick={Print} className="px-5 w-100 mb-5 " style={{fontWeight: 'bold',fontFamily: 'Arial'}}>
-              Print This Out
+              Print Out
               </Button>
         </div>
       </div>
